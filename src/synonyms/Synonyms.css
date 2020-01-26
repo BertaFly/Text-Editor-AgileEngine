@@ -1,0 +1,13 @@
+.synonyms-container {
+  position: absolute;
+  right: 0;
+  top: 42px;
+  height: 90%;
+  overflow-y: scroll;
+  background: rgb(33,33,33);
+  color: white;
+}
+
+.synonyms-container li {
+  cursor: pointer;
+}

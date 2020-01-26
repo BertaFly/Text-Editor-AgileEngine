@@ -1,0 +1,23 @@
+#file-zone {
+    background-color:#f1f0f0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#file {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e4dede;
+}
+
+.content-box {
+    padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    #file {
+      width: 600px;
+    }
+}
